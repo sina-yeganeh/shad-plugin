@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir/Vazir.ttf");
+}
+
+* {
+  font-family: "vazir";
+  font-weight: 600;
+}
+
+body {
+  width: 300px;
+  height: 410px;
+  margin: 8px 0;
+  overflow: hidden;
+  background-color: rgb(40, 218, 40);
+}
+
+button {
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.top {
+  margin-top: 8px;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#title {
+  background-color: rgb(40, 218, 40);
+}
+
+#title:hover {
+  background-color: rgb(0, 255, 0);
+}
+
+.top-hr {
+  border-radius: 25px;
+  border: rgb(239, 253, 39) solid 2px;
+}
+
+.content {
+  padding: 0 8px 0 8px;
+}
+
+.dropdown-menu {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: rgb(239, 253, 39) solid 2px;
+  font-family: vazir;
+  outline: none;
+  width: 100%;
+  background-color: rgb(239, 253, 39);
+  color: black;
+  transition: 0.7s;
+}
+
+.over {
+  margin-top: -10px;
+  border-radius: 25px;
+  border: rgb(239, 253, 39) solid 1px;
+}
+
+.footer {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.footer > div {
+  display: flex;
+  margin-right: 8px;
+}
+
+.footer > div > a > button {
+  width: 80px;
+  margin-left: 5px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.footer > div > a > button:hover {
+  opacity: 0.85;
+  border-radius: 5px;
+}
+
+.id-pay {
+  background-color: rgb(40, 79, 251);
+  color: white;
+}
+
+.discord {
+  background-color: rgb(21, 63, 253);
+  color: white;
+}
+
+.github {
+  background-color: black;
+  color: white;
+}

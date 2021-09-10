@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "پلاگین شاد",
+  "version": "1.0.0",
+  "description": "تم شاد رو با یک کلیک عوض کن!",
+
+  "browser_action": {
+    "popup": "popup.html",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.shad.ir/"
+      ],
+      "js": [
+        "./assets/js/content.js"
+      ]
+    }
+  ],
+
+  "icons": {
+    "200": "./assets/img/shad_icon.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
